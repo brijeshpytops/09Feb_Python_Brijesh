@@ -1,0 +1,61 @@
+
+In C programming, a conditional statement is a type of control statement that allows the program to make decisions based on certain conditions. The most commonly used conditional statement is the "if" statement.
+
+Syntax : 
+if (condition) {
+    // Code to be executed if the condition is true
+}
+
+The "if" statement evaluates the condition inside the parentheses. If the condition is true (non-zero), the code inside the curly braces following the "if" statement is executed. If the condition is false (zero), the code inside the curly braces is skipped.
+
+Optionally, you can include an "else" statement to specify a block of code to be executed if the condition is false:
+
+Syntax :
+if (condition) {
+    // Code to be executed if the condition is true
+} else {
+    // Code to be executed if the condition is false
+}
+
+
+In this case, if the condition inside the "if" statement is false, the code inside the curly braces following the "else" statement is executed.
+
+Additionally, you can use the "else if" statement to specify multiple conditions:
+
+syntax :
+
+if (condition1) {
+    // Code to be executed if condition1 is true
+} else if (condition2) {
+    // Code to be executed if condition1 is false and condition2 is true
+} else {
+    // Code to be executed if both condition1 and condition2 are false
+}
+
+This allows you to create a chain of conditions, where each condition is evaluated sequentially until one of them is found to be true.
+
+Nested "if" Statements:
+if (condition1) {
+    // Code to be executed if condition1 is true
+
+    if (condition2) {
+        // Code to be executed if condition1 and condition2 are true
+    }
+}
+
+
+In nested "if" statements, an "if" statement is placed inside another "if" statement's block. The inner "if" statement is only executed if the outer "if" statement's condition is true.
+
+"if...else" Statements:
+
+if (condition1) {
+    if (condition1) {
+        // Code to be executed if condition1 is true
+    } else {
+        // Code to be executed if condition1 is false
+    }
+} else {
+    // Code to be executed if condition1 is false
+}
+
+In "if...else" statements, if the condition inside the "if" statement is true, the code inside the corresponding block is executed. Otherwise, if the condition is false, the code inside the "else" block is executed.
