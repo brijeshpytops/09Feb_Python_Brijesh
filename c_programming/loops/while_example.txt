@@ -1,0 +1,54 @@
+// while loop
+
+#include<stdio.h>
+
+int main(){
+    while(1){
+        printf("Brijesh");
+    }
+return 0;
+}
+
+
+// while loop
+
+#include<stdio.h>
+
+int main(){
+    while(1){
+         int age;
+    float weight;
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    if (age >= 18){
+        printf("Enter your Weight: ");
+        scanf("%f", &weight);
+        if (weight >= 50){
+            printf("Your age is : %d\n", age);
+            printf("Your weight is : %.2f\n", weight);
+            printf("You can donate\n");
+        }else{
+            printf("You can not donate because your weight is %.2f(<=50)\n", weight);
+        }
+    }else{
+        printf("You can not donate because of your age is %d(<=18)\n", age);
+    }
+    }
+return 0;
+}
+
+
+// while loop
+
+#include<stdio.h>
+
+int main(){
+    int start = 1, end = 10;
+    while(start<=end){
+            printf("%d\n", start);
+    start++;
+    }
+return 0;
+}

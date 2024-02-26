@@ -1,0 +1,341 @@
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(int row = 1; row<=num; row++){
+        for(int col = 1; col<=num; col++){
+            printf("* ");
+        }
+        printf("\n");
+    }
+}
+
+
+*
+**
+***
+****
+*****
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(int row = 1; row<=num; row++){
+        for(int col = 1; col<=row; col++){
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+
+
+A
+AB
+ABC
+ABCD
+ABCDE
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(int row = 1; row<=num; row++){
+        for(int col = 1; col<=row; col++){
+            printf("%c", col+64);
+        }
+        printf("\n");
+    }
+}
+
+A
+BC
+DEF
+GHIJ
+KLMNO
+
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    int count = 1;
+    for(int row = 1; row<=num; row++){
+        for(int col = 1; col<=row; col++){
+            printf("%c", count+64);
+            count++;
+        }
+        printf("\n");
+    }
+}
+
+
+0
+0 1
+0 1 0
+0 1 0 1
+0 1 0 1 0
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(int row = 1; row<=num; row++){
+        for(int col = 1; col<=row; col++){
+            if(col % 2 == 0){
+                printf("1 ");
+            }else{
+                printf("0 ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+0
+1 1
+0 0 0
+1 1 1 1
+0 0 0 0 0
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(int row = 1; row<=num; row++){
+        for(int col = 1; col<=row; col++){
+            if(row % 2 == 0){
+                printf("1 ");
+            }else{
+                printf("0 ");
+            }
+        }
+        printf("\n");
+    }
+}
+
+
+ A
+  B
+   C
+    D
+     E
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(int row = 1; row<=num; row++){
+        for(int col = 1; col<=row; col++){
+
+            printf(" ", col+64);
+        }
+            printf("%c", row+64);
+        printf("\n");
+    }
+}
+
+     E
+    D
+   C
+  B
+ A
+
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(num; num>=1; num--){
+        for(int col = 1; col<=num; col++){
+
+            printf(" ", col+64);
+        }
+            printf("%c", num+64);
+        printf("\n");
+    }
+}
+
+*****
+****
+***
+**
+*
+
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(num; num>=1; num--){
+
+        for(int col = 1; col<=num; col++){
+               printf("*");
+        }
+        printf("\n");
+
+    }
+}
+
+
+     *****
+    ****
+   ***
+  **
+ *
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(num; num>=1; num--){
+
+        for(int col = 1; col<=num; col++){
+               printf(" ");
+        }
+         for(int col = num; col>=1; col--){
+            printf("*");
+        }
+        printf("\n");
+
+    }
+
+}
+
+
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+#include<stdio.h>
+
+void main(){
+    int num = 5, count=1;
+    for(int row = 1; row<=num; row++){
+        for(int col = 1; col<=row; col++){
+            printf("%d ", count);
+            count++;
+        }
+        printf("\n");
+    }
+}
+
+
+
+
+
+ *****
+  *****
+   *****
+    *****
+     *****
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(int row = 1; row<=num; row++){
+        for(int col = 1; col<=row; col++){
+            printf(" ");
+        }
+        for(int col = num; col>=1;col--){
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+
+
+ *****
+  ****
+   ***
+    **
+     *
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(int row = 1; row<=num; row++){
+        for(int col = 1; col<=row; col++){
+            printf(" ");
+        }
+        for(int col = num; col>=row;col--){
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+
+     *
+    **
+   ***
+  ****
+ *****
+
+ #include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(int row = 1; row<=num; row++){
+        for(int col = num; col>=row; col--){
+            printf(" ");
+        }
+        for(int col = 1; col<=row;col++){
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+
+
+      *
+     * *
+    * * *
+   * * * *
+  * * * * *
+
+#include<stdio.h>
+
+void main(){
+    int num = 5;
+    for(int row = 1; row<=num; row++){
+        for(int col = num; col>=row; col--){
+            printf(" ");
+        }
+        for(int col = 1; col<=row;col++){
+            printf(" *");
+        }
+        printf("\n");
+    }
+}
+
+
+
+Practice examples:
+
+11111
+22222
+33333
+44444
+55555
+
+1
+11
+111
+1111
+11111
+
+A
+BB
+CCC
+DDDD
+EEEEE

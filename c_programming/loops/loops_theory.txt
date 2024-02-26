@@ -1,0 +1,39 @@
+Loops in C programming are control structures that allow you to repeat a block of code multiple times. There are three main types of loops in C: for, while, and do-while.
+
+for loop:
+The for loop is used when you know exactly how many times you want to execute a block of code.
+
+syntax :  
+for (initialization; condition; increment/decrement) {
+    // code to be executed
+}
+
+
+
+Loops in C programming are control structures that allow you to repeat a block of code multiple times. There are three main types of loops in C: for, while, and do-while.
+
+for loop:
+The for loop is used when you know exactly how many times you want to execute a block of code.
+Syntax:
+
+c
+Copy code
+for (initialization; condition; increment/decrement) {
+    // code to be executed
+}
+
+while loop:
+The while loop is used when you want to execute a block of code repeatedly as long as a condition is true.
+
+syntax :
+while (condition) {
+    // code to be executed
+}
+
+
+do-while loop:
+The do-while loop is similar to the while loop, but the condition is checked after the execution of the loop body. This means that the loop body will always execute at least once.
+
+do {
+    // code to be executed
+} while (condition);

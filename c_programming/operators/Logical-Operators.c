@@ -23,7 +23,7 @@ void main(){
     y = 1;
     z = 0;
 
-    // p = x && y; // True
+    p = x && y; // True
     // p = x && y && z; // False
     // p = x && y || z; // True
     // p = x || y || z; // True

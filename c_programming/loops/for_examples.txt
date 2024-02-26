@@ -1,0 +1,48 @@
+// for loop
+
+#include<stdio.h>
+
+void main(){
+    int start = 1, end = 10, table = 50;
+    for(start; start <= end; start++){
+        printf("%d * %d = %d\n", table, start, table*start);
+    }
+}
+
+
+
+// for loop
+
+#include<stdio.h>
+
+void main(){
+    int start = 1, end = 20;
+    for(start; start <= end; start++){
+        printf("%d\n", start);
+    }
+}
+
+
+
+// for loop
+
+#include<stdio.h>
+
+void main(){
+    int start = 1, end = 26;
+    for(start; start <= end; start++){
+        printf("%c\n", start + 64);
+    }
+}
+
+
+// for loop
+
+#include<stdio.h>
+
+void main(){
+    int start = 1, end = 26;
+    for(start; start <= end; start++){
+        printf("%c\n", start + 96);
+    }
+}
